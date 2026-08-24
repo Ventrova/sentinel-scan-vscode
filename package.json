@@ -1,7 +1,7 @@
 {
   "name": "sentinel-scan-mcp",
   "displayName": "Sentinel Scan: MCP Config Auditor",
-  "description": "Free static security audit for mcp.json / claude_desktop_config.json: inline OWASP-mapped diagnostics for prompt injection, excessive agency, credential leaks, and 10+ other MCP tool-manifest risks. No network calls, no telemetry.",
+  "description": "Free, local security audit for mcp.json: inline OWASP-mapped diagnostics for prompt injection, excessive agency, and hardcoded credentials. No network calls, no telemetry.",
   "version": "0.1.0",
   "publisher": "ventrova",
   "license": "MIT",

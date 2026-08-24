@@ -4,3 +4,4 @@ test/**
 *.vsix
 PUBLISH.md
 node_modules/@vscode/vsce/**
+demo/screenshot.html

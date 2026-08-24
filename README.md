@@ -13,6 +13,8 @@ Problems panel and as red/yellow squiggles in the file.
 No network calls, no telemetry, no server round-trip: the scan is a pure,
 static analysis of the JSON you already have open.
 
+![Sentinel Scan findings for a malicious mcp.json shown inline and in the Problems panel](demo/sentinel-scan-vscode-demo.png)
+
 ## What it catches
 
 12+ heuristics mapped to the [OWASP MCP Top 10](https://mcp-top10.owasp.org/),
