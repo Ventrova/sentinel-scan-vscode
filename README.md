@@ -1,5 +1,9 @@
 # Sentinel Scan: MCP Config Auditor
 
+[![Version](https://img.shields.io/visual-studio-marketplace/v/ventrova.sentinel-scan-mcp)](https://marketplace.visualstudio.com/items?itemName=ventrova.sentinel-scan-mcp)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/ventrova.sentinel-scan-mcp)](https://marketplace.visualstudio.com/items?itemName=ventrova.sentinel-scan-mcp)
+[![License](https://img.shields.io/github/license/Ventrova/sentinel-scan-vscode)](LICENSE)
+
 Free static security audit for `mcp.json` / `claude_desktop_config.json`, right
 in the editor. Every time you save one of these files, the extension runs
 [Sentinel Scan](https://github.com/Ventrova/sentinel-scan-cli)'s OWASP-mapped
@@ -56,8 +60,10 @@ call anywhere in this extension.
 
 - [`sentinel-scan-cli`](https://github.com/Ventrova/sentinel-scan-cli) - same
   engine as a standalone CLI and GitHub Action, for CI pipelines.
-- [ventrova.dev](https://ventrova.dev) - managed MCP/LLM app-security audits
-  from the team behind Sentinel Scan.
+- [Authorized LLM red-team audit](https://ventrova.dev/audit) - a human-led
+  audit of your live app, for teams that need to go past static heuristics.
+- [See a real teardown](https://ventrova.dev/teardown) - a walkthrough of an
+  AI support bot leaking a secret it was told to keep.
 
 ## Feedback / issues
 

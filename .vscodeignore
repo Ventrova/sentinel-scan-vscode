@@ -2,4 +2,5 @@
 .gitignore
 test/**
 *.vsix
+PUBLISH.md
 node_modules/@vscode/vsce/**
