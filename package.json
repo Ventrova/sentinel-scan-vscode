@@ -1,7 +1,7 @@
 {
   "name": "sentinel-scan-mcp",
   "displayName": "Sentinel Scan: MCP Config Auditor",
-  "description": "Free static security audit for mcp.json / claude_desktop_config.json — inline OWASP-mapped diagnostics for prompt injection, excessive agency, credential leaks, and 10+ other MCP tool-manifest risks. No network calls, no telemetry.",
+  "description": "Free static security audit for mcp.json / claude_desktop_config.json: inline OWASP-mapped diagnostics for prompt injection, excessive agency, credential leaks, and 10+ other MCP tool-manifest risks. No network calls, no telemetry.",
   "version": "0.1.0",
   "publisher": "ventrova",
   "license": "MIT",
@@ -28,7 +28,11 @@
     "url": "https://github.com/Ventrova/sentinel-scan-vscode"
   },
   "bugs": "https://github.com/Ventrova/sentinel-scan-vscode/issues",
-  "homepage": "https://github.com/Ventrova/sentinel-scan-vscode",
+  "homepage": "https://ventrova.dev",
+  "galleryBanner": {
+    "color": "#0B1220",
+    "theme": "dark"
+  },
   "activationEvents": [
     "onLanguage:json",
     "onLanguage:jsonc"

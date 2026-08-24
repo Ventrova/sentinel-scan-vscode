@@ -6,7 +6,7 @@ in the editor. Every time you save one of these files, the extension runs
 MCP heuristics against it and surfaces findings as inline diagnostics in the
 Problems panel and as red/yellow squiggles in the file.
 
-No network calls, no telemetry, no server round-trip — the scan is a pure,
+No network calls, no telemetry, no server round-trip: the scan is a pure,
 static analysis of the JSON you already have open.
 
 ## What it catches
@@ -43,14 +43,21 @@ palette to force a re-scan without saving.
 This extension vendors the same detection engine used by
 [`sentinel-scan-cli`](https://github.com/Ventrova/sentinel-scan-cli) (the
 `scanMcpManifest` heuristics) so findings are identical to what you'd get
-running the CLI or the GitHub Action — same rule IDs, same severities, same
+running the CLI or the GitHub Action: same rule IDs, same severities, same
 OWASP mapping. No detection logic is duplicated or reimplemented; this is a
 thin editor front-end over the existing engine.
 
 ## Privacy
 
-100% local. Your manifest never leaves your machine — there is no network
+100% local. Your manifest never leaves your machine: there is no network
 call anywhere in this extension.
+
+## Also available
+
+- [`sentinel-scan-cli`](https://github.com/Ventrova/sentinel-scan-cli) - same
+  engine as a standalone CLI and GitHub Action, for CI pipelines.
+- [ventrova.dev](https://ventrova.dev) - managed MCP/LLM app-security audits
+  from the team behind Sentinel Scan.
 
 ## Feedback / issues
 
