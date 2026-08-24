@@ -13,6 +13,15 @@ Problems panel and as red/yellow squiggles in the file.
 No network calls, no telemetry, no server round-trip: the scan is a pure,
 static analysis of the JSON you already have open.
 
+**Install:** search "Sentinel Scan" in the VS Code Marketplace, or while that
+listing is pending, build and install locally:
+
+```bash
+git clone https://github.com/Ventrova/sentinel-scan-vscode
+cd sentinel-scan-vscode && npm install && npx vsce package
+code --install-extension sentinel-scan-mcp-*.vsix
+```
+
 ![Sentinel Scan findings for a malicious mcp.json shown inline and in the Problems panel](demo/sentinel-scan-vscode-demo.png)
 
 ## What it catches
