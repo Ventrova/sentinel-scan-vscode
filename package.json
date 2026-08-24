@@ -1,0 +1,52 @@
+{
+  "name": "sentinel-scan-mcp",
+  "displayName": "Sentinel Scan: MCP Config Auditor",
+  "description": "Free static security audit for mcp.json / claude_desktop_config.json — inline OWASP-mapped diagnostics for prompt injection, excessive agency, credential leaks, and 10+ other MCP tool-manifest risks. No network calls, no telemetry.",
+  "version": "0.1.0",
+  "publisher": "ventrova",
+  "license": "MIT",
+  "icon": "icons/icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Linters",
+    "Other"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "security",
+    "owasp",
+    "prompt-injection",
+    "ai-security",
+    "claude",
+    "linter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ventrova/sentinel-scan-vscode"
+  },
+  "bugs": "https://github.com/Ventrova/sentinel-scan-vscode/issues",
+  "homepage": "https://github.com/Ventrova/sentinel-scan-vscode",
+  "activationEvents": [
+    "onLanguage:json",
+    "onLanguage:jsonc"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "sentinel-scan.scanActiveFile",
+        "title": "Sentinel Scan: Scan Active MCP Manifest"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.32.0"
+  }
+}
